@@ -1,0 +1,48 @@
+INSERT INTO category (type) VALUES ('LITERATURE');
+INSERT INTO category (type) VALUES ('ECONOMIC_MANAGEMENT');
+INSERT INTO category (type) VALUES ('HUMANITIES');
+INSERT INTO category (type) VALUES ('IT');
+INSERT INTO category (type) VALUES ('SCIENCE');
+INSERT INTO category (type) VALUES ('OCCULT');
+INSERT INTO category (type) VALUES ('SURREAL');
+INSERT INTO category (type) VALUES ('FICTION');
+
+
+INSERT INTO book (id, author, status, title) VALUES (1, '권태영', 'NORMAL', '너에게 해주지 못한 말들');
+INSERT INTO book (id, author, status, title) VALUES (2, '현영서', 'NORMAL', '단순하게 배부르게');
+INSERT INTO book (id, author, status, title) VALUES (3, '권태영', 'NORMAL', '게으른 사랑');
+INSERT INTO book (id, author, status, title) VALUES (4, '권태영', 'NORMAL', '트랜드 코리아 2322');
+INSERT INTO book (id, author, status, title) VALUES (5, '장동혁', 'NORMAL', '초격자 투자');
+INSERT INTO book (id, author, status, title) VALUES (6, '홍길동', 'NORMAL', '파이어족 강환국의 하면 되지 않는다! 퀀트 투자');
+INSERT INTO book (id, author, status, title) VALUES (7, '이서연', 'NORMAL', '진심보다 밥');
+INSERT INTO book (id, author, status, title) VALUES (8, '위성원', 'NORMAL', '실패에 대하여 생각하지 마라');
+INSERT INTO book (id, author, status, title) VALUES (9, '지승열', 'NORMAL', '실리콘밸리 리더십 쉽다');
+INSERT INTO book (id, author, status, title) VALUES (10, '지승열', 'NORMAL', '데이터분석을 위한 A 프로그래밍');
+INSERT INTO book (id, author, status, title) VALUES (11, '장동혁', 'NORMAL', '인공지능1-12');
+INSERT INTO book (id, author, status, title) VALUES (12, '위성원', 'NORMAL', '-1년차 게임 개발');
+INSERT INTO book (id, author, status, title) VALUES (13, '권태영', 'NORMAL', 'Skye가 알려주는 피부 채색의 비결');
+INSERT INTO book (id, author, status, title) VALUES (14, '장지명', 'NORMAL', '자연의 발전');
+INSERT INTO book (id, author, status, title) VALUES (15, '이승열', 'NORMAL', '코스모스 필 무렵');
+INSERT INTO book (id, author, status, title) VALUES (16, '무라카미 하루키', 'NORMAL', '노르웨이의 숲');
+INSERT INTO book (id, author, status, title) VALUES (17, '무라카미 하루키', 'LOST', '해변의 카프카(상)');
+
+INSERT INTO book_category (book_category_type, book_id) VALUES ('LITERATURE', 1);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('LITERATURE', 2);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('LITERATURE', 3);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('ECONOMIC_MANAGEMENT', 4);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('ECONOMIC_MANAGEMENT', 5);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('ECONOMIC_MANAGEMENT', 6);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('HUMANITIES', 7);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('HUMANITIES', 8);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('IT', 9);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('IT', 10);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('IT', 11);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('IT', 12);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('IT', 13);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('SCIENCE', 14);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('SCIENCE', 15);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('OCCULT', 16);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('SURREAL', 16);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('FICTION', 16);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('FICTION', 17);
+INSERT INTO book_category (book_category_type, book_id) VALUES ('OCCULT', 17);

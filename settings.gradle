@@ -1,0 +1,10 @@
+rootProject.name = 'book-management-system'
+include 'core'
+include 'core:core-domain'
+findProject(':core:core-domain')?.name = 'core-domain'
+include 'core:core-api'
+findProject(':core:core-api')?.name = 'core-api'
+include 'storage'
+include 'storage:db-jpa'
+findProject(':storage:db-jpa')?.name = 'db-jpa'
+
